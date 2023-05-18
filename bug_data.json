@@ -1,0 +1,2563 @@
+{
+    "CVE-2022-29340": {
+        "id": 1,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/isomedia/box_funcs.c",
+                "name": "gf_isom_box_parse_ex",
+                "line_range": [
+                    95,
+                    340
+                ],
+                "vuln_range": [
+                    314,
+                    314
+                ]
+            },
+            {
+                "file": "src/isomedia/isom_intern.c",
+                "name": "gf_isom_parse_movie_boxes_internal",
+                "line_range": [
+                    344,
+                    841
+                ],
+                "vuln_range": [
+                    376,
+                    377
+                ]
+            }
+        ],
+        "CommitVersion": "37592ad86c6ca934d34740012213e467acc4a3b0",
+        "ParentCommitVersion": "7caa2302c549ec755b1f15db77d98f4e28eb7fbe",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2022-2549": {
+        "id": 2,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/scene_manager/scene_dump.c",
+                "name": "gf_dump_vrml_simple_field",
+                "line_range": [
+                    750,
+                    802
+                ],
+                "vuln_range": [
+                    788,
+                    788
+                ]
+            },
+            {
+                "file": "src/scene_manager/scene_dump.c",
+                "name": "gf_dump_vrml_field",
+                "line_range": [
+                    804,
+                    965
+                ],
+                "vuln_range": [
+                    941,
+                    946
+                ]
+            }
+        ],
+        "CommitVersion": "0102c5d4db7fdbf08b5b591b2a6264de33867a07",
+        "ParentCommitVersion": "2969863d9ff4589b108cc9652bd5b43b421addd8",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2022-1441": {
+        "id": 3,
+        "cwe": "CWE-119",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/isomedia/box_code_3gpp.c",
+                "name": "diST_box_read",
+                "line_range": [
+                    1129,
+                    1146
+                ],
+                "vuln_range": [
+                    1131,
+                    1132,
+                    1135,
+                    1144
+                ]
+            }
+        ],
+        "CommitVersion": "3dbe11b37d65c8472faf0654410068e5500b3adb",
+        "ParentCommitVersion": "1773b7a34bc08734aee7d3f5dfe65d06389fe15a",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2022-1172": {
+        "id": 4,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/bifs/field_decode.c",
+                "name": "gf_bifs_dec_sf_field",
+                "line_range": [
+                    75,
+                    299
+                ],
+                "vuln_range": [
+                    205,
+                    208
+                ]
+            }
+        ],
+        "CommitVersion": "55a183e6b8602369c04ea3836e05436a79fbc7f8",
+        "ParentCommitVersion": "b8959e199b374e65550d3c6b0a14710fb0618a5f",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-40576": {
+        "id": 5,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/isomedia/hint_track.c",
+                "name": "GetHintFormat",
+                "line_range": [
+                    43,
+                    56
+                ],
+                "vuln_range": [
+                    46,
+                    46
+                ]
+            }
+        ],
+        "CommitVersion": "ad18ece95fa064efc0995c4ab2c985f77fb166ec",
+        "ParentCommitVersion": "b07a6ace2113f2dd22531151ba30215df4f449e9",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-40575": {
+        "id": 6,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/filters/reframe_mpgvid.c",
+                "name": "mpgviddmx_process",
+                "line_range": [
+                    505,
+                    1049
+                ],
+                "vuln_range": [
+                    787,
+                    790
+                ]
+            }
+        ],
+        "CommitVersion": "5f2c2a16d30229b6241f02fa28e3d6b810d64858",
+        "ParentCommitVersion": "ad18ece95fa064efc0995c4ab2c985f77fb166ec",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-40565": {
+        "id": 7,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/media_tools/av_parsers.c",
+                "name": "gf_avc_parse_nalu",
+                "line_range": [
+                    6040,
+                    6200
+                ],
+                "vuln_range": [
+                    6116,
+                    6116
+                ]
+            }
+        ],
+        "CommitVersion": "893fb99b606eebfae46cde151846a980e689039b",
+        "ParentCommitVersion": "5dd71c7201a3e5cf40732d585bfb21c906c171d3",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-40564": {
+        "id": 8,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/media_tools/av_parsers.c",
+                "name": "gf_bs_read_ue_log_idx3",
+                "line_range": [
+                    4686,
+                    4717
+                ],
+                "vuln_range": [
+                    4709,
+                    4709
+                ]
+            },
+            {
+                "file": "src/media_tools/av_parsers.c",
+                "name": "avc_parse_slice",
+                "line_range": [
+                    5664,
+                    5770
+                ],
+                "vuln_range": [
+                    5674,
+                    5674
+                ]
+            }
+        ],
+        "CommitVersion": "cf6771c857eb9a290e2c19ddacfdd3ed98b27618",
+        "ParentCommitVersion": "30ac5e5236b790accd1f25347eebf2dc8c6c1bcb",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-40563": {
+        "id": 9,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/filters/reframe_nalu.c",
+                "name": "naludmx_queue_param_set",
+                "line_range": [
+                    1679,
+                    1797
+                ],
+                "vuln_range": [
+                    1683,
+                    1684
+                ]
+            }
+        ],
+        "CommitVersion": "5ce0c906ed8599d218036b18b78e8126a496f137",
+        "ParentCommitVersion": "b03c9f252526bb42fbd1b87b9f5e339c3cf2390a",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-32440": {
+        "id": 10,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/isomedia/media_odf.c",
+                "name": "Media_RewriteODFrame",
+                "line_range": [
+                    31,
+                    226
+                ],
+                "vuln_range": [
+                    135,
+                    135,
+                    162,
+                    190
+                ]
+            }
+        ],
+        "CommitVersion": "f0ba83717b6e4d7a15a1676d1fe06152e199b011",
+        "ParentCommitVersion": "185532656c97da3d7ed50a55871f5df42e0b89a9",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-32438": {
+        "id": 11,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/media_tools/media_export.c",
+                "name": "gf_media_export_filters",
+                "line_range": [
+                    1083,
+                    1452
+                ],
+                "vuln_range": [
+                    1111,
+                    1111
+                ]
+            }
+        ],
+        "CommitVersion": "00194f5fe462123f70b0bae7987317b52898b868",
+        "ParentCommitVersion": "289ffce3e0d224d314f5f92a744d5fe35999f20b",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-32437": {
+        "id": 12,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/media_tools/isom_hinter.c",
+                "name": "gf_hinter_finalize",
+                "line_range": [
+                    1131,
+                    1303
+                ],
+                "vuln_range": [
+                    1236,
+                    1236
+                ]
+            }
+        ],
+        "CommitVersion": "1653f31cf874eb6df964bea88d58d8e9b98b485e",
+        "ParentCommitVersion": "00194f5fe462123f70b0bae7987317b52898b868",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-32135": {
+        "id": 13,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/isomedia/box_code_base.c",
+                "name": "trak_box_size",
+                "line_range": [
+                    6740,
+                    6759
+                ],
+                "vuln_range": [
+                    6745,
+                    6748
+                ]
+            }
+        ],
+        "CommitVersion": "b8f8b202d4fc23eb0ab4ce71ae96536ca6f5d3f8",
+        "ParentCommitVersion": "328c6d682698fdb9878dbb4f282963d42c538c01",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-31262": {
+        "id": 14,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/isomedia/avc_ext.c",
+                "name": "AV1_RewriteESDescriptorEx",
+                "line_range": [
+                    1371,
+                    1392
+                ],
+                "vuln_range": [
+                    1385,
+                    1385
+                ]
+            },
+            {
+                "file": "src/isomedia/avc_ext.c",
+                "name": "gf_isom_av1_config_get",
+                "line_range": [
+                    2394,
+                    2411
+                ],
+                "vuln_range": [
+                    2409,
+                    2409
+                ]
+            }
+        ],
+        "CommitVersion": "b2eab95e07cb5819375a50358d4806a8813b6e50",
+        "ParentCommitVersion": "cd3738dea038dbd12e603ad48cd7373ae0440f65",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-31261": {
+        "id": 15,
+        "cwe": "CWE-119",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/media_tools/isom_hinter.c",
+                "name": "gf_hinter_track_new",
+                "line_range": [
+                    222,
+                    666
+                ],
+                "vuln_range": [
+                    405,
+                    405
+                ]
+            }
+        ],
+        "CommitVersion": "cd3738dea038dbd12e603ad48cd7373ae0440f65",
+        "ParentCommitVersion": "d98b45f0b2a6d65d65e7fdc6cd8906e8165cff82",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-31260": {
+        "id": 16,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/isomedia/track.c",
+                "name": "MergeTrack",
+                "line_range": [
+                    445,
+                    1121
+                ],
+                "vuln_range": [
+                    1038,
+                    1040
+                ]
+            }
+        ],
+        "CommitVersion": "df8fffd839fe5ae9acd82d26fd48280a397411d9",
+        "ParentCommitVersion": "3b84ffcbacf144ce35650df958432f472b6483f8",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-31259": {
+        "id": 17,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/isomedia/drm_sample.c",
+                "name": "gf_isom_cenc_get_default_info_internal",
+                "line_range": [
+                    1623,
+                    1715
+                ],
+                "vuln_range": [
+                    1689,
+                    1689
+                ]
+            }
+        ],
+        "CommitVersion": "3b84ffcbacf144ce35650df958432f472b6483f8",
+        "ParentCommitVersion": "87afe070cd6866df7fe80f11b26ef75161de85e0",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-31257": {
+        "id": 18,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "applications/mp4box/main.c",
+                "name": "HintFile",
+                "line_range": [
+                    3277,
+                    3450
+                ],
+                "vuln_range": [
+                    3373,
+                    3373
+                ]
+            }
+        ],
+        "CommitVersion": "87afe070cd6866df7fe80f11b26ef75161de85e0",
+        "ParentCommitVersion": "758135e91e623d7dfe7f6aaad7aeb3f791b7a4e5",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2021-30199": {
+        "id": 19,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/filters/reframe_latm.c",
+                "name": "latm_dmx_process",
+                "line_range": [
+                    446,
+                    583
+                ],
+                "vuln_range": [
+                    451,
+                    452,
+                    480,
+                    481
+                ]
+            }
+        ],
+        "CommitVersion": "b2db2f99b4c30f96e17b9a14537c776da6cb5dca",
+        "ParentCommitVersion": "24c0988016bfc3721f2775b1ca03af1bc2554e57",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2020-35982": {
+        "id": 20,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/media_tools/isom_hinter.c",
+                "name": "gf_hinter_track_finalize",
+                "line_range": [
+                    867,
+                    1094
+                ],
+                "vuln_range": [
+                    969,
+                    971
+                ]
+            }
+        ],
+        "CommitVersion": "a4eb327049132359cae54b59faec9e2f14c5a619",
+        "ParentCommitVersion": "dae9900580a8888969481cd72035408091edb11b",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2020-35981": {
+        "id": 21,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/isomedia/isom_store.c",
+                "name": "SetupWriters",
+                "line_range": [
+                    141,
+                    213
+                ],
+                "vuln_range": [
+                    152,
+                    155
+                ]
+            }
+        ],
+        "CommitVersion": "dae9900580a8888969481cd72035408091edb11b",
+        "ParentCommitVersion": "96170ab9e525ff3db6d28e5ea6c5e6377ed3b9cf",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2020-25427": {
+        "id": 22,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/isomedia/box_funcs.c",
+                "name": "gf_isom_box_parse_ex",
+                "line_range": [
+                    92,
+                    256
+                ],
+                "vuln_range": [
+                    208,
+                    218
+                ]
+            }
+        ],
+        "CommitVersion": "8e585e623b1d666b4ef736ed609264639cb27701",
+        "ParentCommitVersion": "e90526f3d2ec0dee4cddc5244eb115668f10341f",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2020-23932": {
+        "id": 23,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "applications/mp4box/filedump.c",
+                "name": "dump_isom_sdp",
+                "line_range": [
+                    1602,
+                    1638
+                ],
+                "vuln_range": [
+                    1627,
+                    1627
+                ]
+            }
+        ],
+        "CommitVersion": "ce01bd15f711d4575b7424b54b3a395ec64c1784",
+        "ParentCommitVersion": "9eeac00b38348c664dfeae2525bba0cf1bc32349",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2020-23930": {
+        "id": 24,
+        "cwe": "CWE-476",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "applications/mp4box/main.c",
+                "name": "mp4boxMain",
+                "line_range": [
+                    4850,
+                    6570
+                ],
+                "vuln_range": [
+                    5598,
+                    5598
+                ]
+            },
+            {
+                "file": "src/filters/write_nhml.c",
+                "name": "nhmldump_send_header",
+                "line_range": [
+                    336,
+                    489
+                ],
+                "vuln_range": [
+                    401,
+                    401
+                ]
+            }
+        ],
+        "CommitVersion": "9eeac00b38348c664dfeae2525bba0cf1bc32349",
+        "ParentCommitVersion": "093283e727f396130651280609e687cd4778e0d1",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2019-11222": {
+        "id": 25,
+        "cwe": "CWE-119",
+        "product": "Gpac Gpac",
+        "functions": [
+            {
+                "file": "src/utils/os_divers.c",
+                "name": "gf_bin128_parse",
+                "line_range": [
+                    1972,
+                    2000
+                ],
+                "vuln_range": [
+                    1991,
+                    1991
+                ]
+            }
+        ],
+        "CommitVersion": "f3698bb1bce62402805c3fda96551a23101a32f9",
+        "ParentCommitVersion": "f4616202e5578e65746cf7e7ceeba63bee1b094b",
+        "Repo_url": "https://github.com/gpac/gpac.git"
+    },
+    "CVE-2022-1283": {
+        "id": 26,
+        "cwe": "CWE-476",
+        "product": "Radare Radare2",
+        "functions": [
+            {
+                "file": "libr/bin/format/ne/ne.c",
+                "name": "r_bin_ne_get_symbols",
+                "line_range": [
+                    109,
+                    180
+                ],
+                "vuln_range": [
+                    118,
+                    118
+                ]
+            },
+            {
+                "file": "libr/bin/format/ne/ne.c",
+                "name": "r_bin_ne_get_entrypoints",
+                "line_range": [
+                    354,
+                    426
+                ],
+                "vuln_range": [
+                    355,
+                    360
+                ]
+            }
+        ],
+        "CommitVersion": "18d1d064bf599a255d55f09fca3104776fc34a67",
+        "ParentCommitVersion": "2b77b277d67ce061ee6ef839e7139ebc2103c1e3",
+        "Repo_url": "https://github.com/radareorg/radare2.git"
+    },
+    "CVE-2017-7274": {
+        "id": 27,
+        "cwe": "CWE-476",
+        "product": "Radare Radare2",
+        "functions": [
+            {
+                "file": "libr/util/r_pkcs7.c",
+                "name": "r_pkcs7_parse_cms",
+                "line_range": [
+                    276,
+                    296
+                ],
+                "vuln_range": [
+                    287,
+                    287
+                ]
+            }
+        ],
+        "CommitVersion": "7ab66cca5bbdf6cb2d69339ef4f513d95e532dbf",
+        "ParentCommitVersion": "6de49610ea69adc693920176948741d8926351f3",
+        "Repo_url": "https://github.com/radareorg/radare2.git"
+    },
+    "CVE-2017-6415": {
+        "id": 28,
+        "cwe": "CWE-476",
+        "product": "Radare Radare2",
+        "functions": [
+            {
+                "file": "libr/bin/p/bin_dex.c",
+                "name": "dex_parse_debug_item",
+                "line_range": [
+                    298,
+                    625
+                ],
+                "vuln_range": [
+                    380,
+                    380
+                ]
+            }
+        ],
+        "CommitVersion": "68338b71a563b24e62617bb629059adc0c94b230",
+        "ParentCommitVersion": "5af263c821f8d8ba5aea7c542b965971f9c872ff",
+        "Repo_url": "https://github.com/radareorg/radare2.git"
+    },
+    "CVE-2018-14015": {
+        "id": 29,
+        "cwe": "CWE-119",
+        "product": "Radare Radare2",
+        "functions": [
+            {
+                "file": "libr/bin/dwarf.c",
+                "name": "r_bin_dwarf_parse_comp_unit",
+                "line_range": [
+                    1313,
+                    1371
+                ],
+                "vuln_range": [
+                    1364,
+                    1364
+                ]
+            }
+        ],
+        "CommitVersion": "d37d2b858ac47f2f108034be0bcecadaddfbc8b3",
+        "ParentCommitVersion": "e84cf425bca83b21e5aa5cdd4c22818fb7610e53",
+        "Repo_url": "https://github.com/radareorg/radare2.git"
+    },
+    "CVE-2022-0521": {
+        "id": 30,
+        "cwe": "CWE-119",
+        "product": "Radare Radare2",
+        "functions": [
+            {
+                "file": "shlr/java/class.c",
+                "name": "r_bin_java_enclosing_methods_attr_new",
+                "line_range": [
+                    3628,
+                    3654
+                ],
+                "vuln_range": [
+                    3630,
+                    3630
+                ]
+            },
+            {
+                "file": "shlr/java/class.c",
+                "name": "r_bin_java_inner_classes_attr_new",
+                "line_range": [
+                    3716,
+                    3783
+                ],
+                "vuln_range": [
+                    3717,
+                    3738
+                ]
+            }
+        ],
+        "CommitVersion": "6c4428f018d385fc80a33ecddcb37becea685dd5",
+        "ParentCommitVersion": "a638f6a073629bf711779cdba83f39bbf2f14c42",
+        "Repo_url": "https://github.com/radareorg/radare2.git"
+    },
+    "CVE-2017-9761": {
+        "id": 31,
+        "cwe": "CWE-119",
+        "product": "Radare Radare2",
+        "functions": [
+            {
+                "file": "libr/core/cmd.c",
+                "name": "r_core_cmd_subst_i",
+                "line_range": [
+                    1413,
+                    2170
+                ],
+                "vuln_range": [
+                    1446,
+                    1446
+                ]
+            },
+            {
+                "file": "libr/core/cmd_info.c",
+                "name": "cmd_info",
+                "line_range": [
+                    246,
+                    674
+                ],
+                "vuln_range": [
+                    398,
+                    398,
+                    447,
+                    447
+                ]
+            }
+        ],
+        "CommitVersion": "00e8f205475332d7842d0f0d1481eeab4e83017c",
+        "ParentCommitVersion": "bda42cb592596e96ffb57b96bd45ed3ff7ca9201",
+        "Repo_url": "https://github.com/radareorg/radare2.git"
+    },
+    "CVE-2018-11378": {
+        "id": 32,
+        "cwe": "CWE-119",
+        "product": "Radare Radare2",
+        "functions": [
+            {
+                "file": "libr/asm/arch/wasm/wasm.c",
+                "name": "wasm_dis",
+                "line_range": [
+                    208,
+                    549
+                ],
+                "vuln_range": [
+                    417,
+                    424
+                ]
+            }
+        ],
+        "CommitVersion": "bd276ef2fd8ac3401e65be7c126a43175ccfbcd7",
+        "ParentCommitVersion": "03afd11572edf1fbdf78251a4d6daa297f355c2c",
+        "Repo_url": "https://github.com/radareorg/radare2.git"
+    },
+    "CVE-2017-16546": {
+        "id": 33,
+        "cwe": "CWE-119",
+        "product": "Imagemagick Imagemagick",
+        "functions": [
+            {
+                "file": "coders/wpg.c",
+                "name": "ReadWPGImage",
+                "line_range": [
+                    851,
+                    1469
+                ],
+                "vuln_range": [
+                    1063,
+                    1066
+                ]
+            }
+        ],
+        "CommitVersion": "e04cf3e9524f50ca336253513d977224e083b816",
+        "ParentCommitVersion": "de87676105fa7afe91b1b50b5beb29236db00845",
+        "Repo_url": "https://github.com/ImageMagick/ImageMagick.git"
+    },
+    "CVE-2018-16749": {
+        "id": 34,
+        "cwe": "CWE-476",
+        "product": "Imagemagick Imagemagick",
+        "functions": [
+            {
+                "file": "coders/png.c",
+                "name": "ReadOneJNGImage",
+                "line_range": [
+                    4223,
+                    4967
+                ],
+                "vuln_range": [
+                    4587,
+                    4587
+                ]
+            }
+        ],
+        "CommitVersion": "1007b98f8795ad4bea6bc5f68a32d83e982fdae4",
+        "ParentCommitVersion": "811929f9af843e72cb6d99ed3e25c488e9fad5e8",
+        "Repo_url": "https://github.com/ImageMagick/ImageMagick.git"
+    },
+    "CVE-2016-10050": {
+        "id": 35,
+        "cwe": "CWE-119",
+        "product": "Imagemagick Imagemagick",
+        "functions": [
+            {
+                "file": "coders/jpeg.c",
+                "name": "ReadJPEGImage",
+                "line_range": [
+                    964,
+                    1453
+                ],
+                "vuln_range": [
+                    398,
+                    398,
+                    429,
+                    430
+                ]
+            }
+        ],
+        "CommitVersion": "139d4323c40d7363bfdd2382c3821a6f76d69430",
+        "ParentCommitVersion": "f3132f96b1731c2800a00ce33da7b6031203164e",
+        "Repo_url": "https://github.com/ImageMagick/ImageMagick.git"
+    },
+    "CVE-2016-9298": {
+        "id": 36,
+        "cwe": "CWE-119",
+        "product": "Imagemagick Imagemagick",
+        "functions": [
+            {
+                "file": "MagickCore/fx.c",
+                "name": "WaveletDenoiseImage",
+                "line_range": [
+                    5813,
+                    6079
+                ],
+                "vuln_range": [
+                    5869,
+                    5869
+                ]
+            }
+        ],
+        "CommitVersion": "3cbfb163cff9e5b8cdeace8312e9bfee810ed02b",
+        "ParentCommitVersion": "5108653bb74d46dc3d933177234eeb66e65d2a80",
+        "Repo_url": "https://github.com/ImageMagick/ImageMagick.git"
+    },
+    "CVE-2017-5508": {
+        "id": 37,
+        "cwe": "CWE-119",
+        "product": "Imagemagick Imagemagick",
+        "functions": [
+            {
+                "file": "coders/tiff.c",
+                "name": "ReadTIFFImage",
+                "line_range": [
+                    1088,
+                    2137
+                ],
+                "vuln_range": [
+                    1609,
+                    1610
+                ]
+            }
+        ],
+        "CommitVersion": "c073a7712d82476b5fbee74856c46b88af9c3175",
+        "ParentCommitVersion": "a0bcddc9780dcc525bb1033e0be2c0e22d1e1649",
+        "Repo_url": "https://github.com/ImageMagick/ImageMagick.git"
+    },
+    "CVE-2016-9556": {
+        "id": 38,
+        "cwe": "CWE-119",
+        "product": "Imagemagick Imagemagick",
+        "functions": [
+            {
+                "file": "coders/sgi.c",
+                "name": "ReadSGIImage",
+                "line_range": [
+                    256,
+                    721
+                ],
+                "vuln_range": [
+                    334,
+                    336
+                ]
+            }
+        ],
+        "CommitVersion": "ce98a7acbcfca7f0a178f4b1e7b957e419e0cc99",
+        "ParentCommitVersion": "35a9ba32f0c24b53de5f2d78504ed8870e7213b1",
+        "Repo_url": "https://github.com/ImageMagick/ImageMagick.git"
+    },
+    "CVE-2015-8898": {
+        "id": 39,
+        "cwe": "CWE-119",
+        "product": "Imagemagick Imagemagick",
+        "functions": [
+            {
+                "file": "MagickCore/constitute.c",
+                "name": "WriteImages",
+                "line_range": [
+                    1224,
+                    1314
+                ],
+                "vuln_range": [
+                    1275,
+                    1275
+                ]
+            }
+        ],
+        "CommitVersion": "5b4bebaa91849c592a8448bc353ab25a54ff8c44",
+        "ParentCommitVersion": "52ec99e1511bdf61dbe568526a93441545ff4371",
+        "Repo_url": "https://github.com/ImageMagick/ImageMagick.git"
+    },
+    "CVE-2016-10063": {
+        "id": 40,
+        "cwe": "CWE-119",
+        "product": "Imagemagick Imagemagick",
+        "functions": [
+            {
+                "file": "coders/tiff.c",
+                "name": "ReadTIFFImage",
+                "line_range": [
+                    1070,
+                    2124
+                ],
+                "vuln_range": [
+                    1302,
+                    1304
+                ]
+            }
+        ],
+        "CommitVersion": "94936efda8aa63563211eda07a5ade92abb32f7",
+        "ParentCommitVersion": "9b92589094b9e26ec77d13183c69ffde636e1bd2",
+        "Repo_url": "https://github.com/ImageMagick/ImageMagick.git"
+    },
+
+    
+    "CVE-2022-4285": {
+        "id": 41,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/elf.c",
+                "name": "_bfd_elf_slurp_version_tables",
+                "line_range": [
+                    8881,
+                    9236
+                ],
+                "vuln_range": [
+                    8921,
+                    8921
+                ]
+            }
+        ],
+        "CommitVersion": "5c831a3c7f3ca98d6aba1200353311e1a1f84c70",
+        "ParentCommitVersion": "feab6abfe23b5b1724cb3c00059254e8f1bc5225",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2020-16599": {
+        "id": 42,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/elf.c",
+                "name": "_bfd_elf_get_symbol_version_string",
+                "line_range": [
+                    1889,
+                    1940
+                ],
+                "vuln_range": [
+                    1914,
+                    1915
+                ]
+            }
+        ],
+        "CommitVersion": "8d55d10ac0d112c586eaceb92e75bd9b80aadcc4",
+        "ParentCommitVersion": "ca3f923f82a079dcf441419f4a50a50f8b4b33c2",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2020-16593": {
+        "id": 43,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "scan_unit_for_symbols",
+                "line_range": [
+                    3180,
+                    3493
+                ],
+                "vuln_range": [
+                    3382,
+                    3382,
+                    3385,
+                    3387
+                ]
+            }
+        ],
+        "CommitVersion": "aec72fda3b320c36eb99fc1c4cf95b10fc026729",
+        "ParentCommitVersion": "c54a9b56696e584c2b8c7146caac337c063f5516",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2018-20651": {
+        "id": 44,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/elflink.c",
+                "name": "elf_link_add_object_symbols",
+                "line_range": [
+                    3864,
+                    5516
+                ],
+                "vuln_range": [
+                    4189,
+                    4189
+                ]
+            }
+        ],
+        "CommitVersion": "54025d5812ff100f5f0654eb7e1ffd50f2e37f5f",
+        "ParentCommitVersion": "c96e057398b599a343cdff68325251346b71594e",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2018-18607": {
+        "id": 45,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/elflink.c",
+                "name": "elf_link_input_bfd",
+                "line_range": [
+                    10281,
+                    11178
+                ],
+                "vuln_range": [
+                    10492,
+                    10493,
+                    11051,
+                    11054
+                ]
+            }
+        ],
+        "CommitVersion": "102def4da826b3d9e169741421e5e67e8731909a",
+        "ParentCommitVersion": "ab419ddbb2cdd17ca83618990f2cacf904ce1d61",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2018-18606": {
+        "id": 46,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/merge.c",
+                "name": "_bfd_add_merge_section",
+                "line_range": [
+                    360,
+                    465
+                ],
+                "vuln_range": [
+                    388,
+                    394
+                ]
+            }
+        ],
+        "CommitVersion": "45a0eaf77022963d639d6d19871dbab7b79703fc",
+        "ParentCommitVersion": "102def4da826b3d9e169741421e5e67e8731909a",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2018-7642": {
+        "id": 47,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/aoutx.h",
+                "name": "NAME",
+                "line_range": [
+                    2230,
+                    2301
+                ],
+                "vuln_range": [
+                    2291,
+                    2291
+                ]
+            }
+        ],
+        "CommitVersion": "116acb2c268c89c89186673a7c92620d21825b25",
+        "ParentCommitVersion": "889be5dbd230ee47a90d4a83f682b13ed7e3faae",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2018-7570": {
+        "id": 48,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/elf.c",
+                "name": "assign_file_positions_for_non_load_sections",
+                "line_range": [
+                    5714,
+                    6011
+                ],
+                "vuln_range": [
+                    5905,
+                    5945
+                ]
+            }
+        ],
+        "CommitVersion": "01f7e10cf2dcf403462b2feed06c43135651556d",
+        "ParentCommitVersion": "340d33e565ee9749b06d31e55cb0222fa98bd546",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2017-17126": {
+        "id": 49,
+        "cwe": "CWE-119",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "binutils/readelf.c",
+                "name": "load_debug_section",
+                "line_range": [
+                    13570,
+                    13614
+                ],
+                "vuln_range": [
+                    13577,
+                    13578
+                ]
+            }
+        ],
+        "CommitVersion": "f425ec6600b69e39eb605f3128806ff688137ea8",
+        "ParentCommitVersion": "e8020e54f4b9ac05150c4b02fa81e228d6cf1f6a",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2017-17124": {
+        "id": 50,
+        "cwe": "CWE-119",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/coffgen.c",
+                "name": "_bfd_coff_read_string_table",
+                "line_range": [
+                    1681,
+                    1752
+                ],
+                "vuln_range": [
+                    1721,
+                    1721
+                ]
+            }
+        ],
+        "CommitVersion": "b0029dce6867de1a2828293177b0e030d2f0f03c",
+        "ParentCommitVersion": "ff174d3ffad13af17a61583db3e1cd9c0c6cf237",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2017-17123": {
+        "id": 51,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/coffcode.h",
+                "name": "coff_slurp_reloc_table",
+                "line_range": [
+                    5293,
+                    5393
+                ],
+                "vuln_range": [
+                    5338,
+                    5338
+                ]
+            }
+        ],
+        "CommitVersion": "4581a1c7d304ce14e714b27522ebf3d0188d6543",
+        "ParentCommitVersion": "f6f1d339d4169a60362f1438221bd03f8f021f04",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2017-16826": {
+        "id": 52,
+        "cwe": "CWE-119",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/coffcode.h",
+                "name": "coff_slurp_line_table",
+                "line_range": [
+                    4564,
+                    4746
+                ],
+                "vuln_range": [
+                    4581,
+                    4583
+                ]
+            }
+        ],
+        "CommitVersion": "a67d66eb97e7613a38ffe6622d837303b3ecd31d",
+        "ParentCommitVersion": "e0115a844607b280449986e661f551dff49a9031",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2017-15996": {
+        "id": 53,
+        "cwe": "CWE-119",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "binutils/elfcomm.c",
+                "name": "process_archive_index_and_symbols",
+                "line_range": [
+                    462,
+                    600
+                ],
+                "vuln_range": [
+                    468,
+                    471
+                ]
+            },
+            {
+                "file": "binutils/elfcomm.c",
+                "name": "setup_archive",
+                "line_range": [
+                    604,
+                    700
+                ],
+                "vuln_range": [
+                    657,
+                    659
+                ]
+            },
+            {
+                "file": "binutils/elfcomm.c",
+                "name": "get_archive_member_name",
+                "line_range": [
+                    749,
+                    836
+                ],
+                "vuln_range": [
+                    761,
+                    772
+                ]
+            }
+        ],
+        "CommitVersion": "d91f0b20e561e326ee91a09a76206257bde8438b",
+        "ParentCommitVersion": "c0e331c794d6bd75d9be9bea6145513074c33f39",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2017-15023": {
+        "id": 54,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "read_formatted_entries",
+                "line_range": [
+                    1907,
+                    2029
+                ],
+                "vuln_range": [
+                    1936,
+                    1938
+                ]
+            }
+        ],
+        "CommitVersion": "c361faae8d964db951b7100cada4dcdc983df1bf",
+        "ParentCommitVersion": "57a024f4650d7562e963efb6b00c4a4cd74185c4",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2017-15022": {
+        "id": 55,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "scan_unit_for_symbols",
+                "line_range": [
+                    3038,
+                    3317
+                ],
+                "vuln_range": [
+                    3227,
+                    3229
+                ]
+            },
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "parse_comp_unit",
+                "line_range": [
+                    3328,
+                    3545
+                ],
+                "vuln_range": [
+                    3479,
+                    3481
+                ]
+            }
+        ],
+        "CommitVersion": "11855d8a1f11b102a702ab76e95b22082cccf2f8",
+        "ParentCommitVersion": "c361faae8d964db951b7100cada4dcdc983df1bf",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2017-14974": {
+        "id": 56,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/elf32-i386.c",
+                "name": "elf_i386_get_synthetic_symtab",
+                "line_range": [
+                    6296,
+                    6671
+                ],
+                "vuln_range": [
+                    6345,
+                    6345
+                ]
+            },
+            {
+                "file": "bfd/elf64-x86-64.c",
+                "name": "elf_x86_64_get_synthetic_symtab",
+                "line_range": [
+                    6669,
+                    7025
+                ],
+                "vuln_range": [
+                    6720,
+                    6720
+                ]
+            }
+        ],
+        "CommitVersion": "e70c19e3a4c26e9c1ebf0c9170d105039b56d7cf",
+        "ParentCommitVersion": "ea2fdc5952e26719a31c6dc9f4e641b656a16c28",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2017-14940": {
+        "id": 57,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "scan_unit_for_symbols",
+                "line_range": [
+                    3003,
+                    3276
+                ],
+                "vuln_range": [
+                    3213,
+                    3213
+                ]
+            }
+        ],
+        "CommitVersion": "0d76029f92182c3682d8be2c833d45bc9a2068fe",
+        "ParentCommitVersion": "bd61e135492ecf624880e6b78e5fcde3c9716df6",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2017-14729": {
+        "id": 58,
+        "cwe": "CWE-119",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/elfxx-x86.c",
+                "name": "_bfd_x86_elf_get_synthetic_symtab",
+                "line_range": [
+                    1779,
+                    1986
+                ],
+                "vuln_range": [
+                    1964,
+                    1966
+                ]
+            }
+        ],
+        "CommitVersion": "61e3bf5f83f7e505b6bc51ef65426e5b31e6e360",
+        "ParentCommitVersion": "59ca4c1bbd48a47073eed2c4b933045674cafe41",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2017-13710": {
+        "id": 59,
+        "cwe": "CWE-476",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/elf.c",
+                "name": "setup_group",
+                "line_range": [
+                    582,
+                    809
+                ],
+                "vuln_range": [
+                    804,
+                    804
+                ]
+            }
+        ],
+        "CommitVersion": "0c54f69295208331faab9bc5e995111a35672f9b",
+        "ParentCommitVersion": "d7f00f429aa525816cb3895462113326b6cb2fe2",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2014-8738": {
+        "id": 60,
+        "cwe": "CWE-119",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/archive.c",
+                "name": "_bfd_slurp_extended_name_table",
+                "line_range": [
+                    1264,
+                    1342
+                ],
+                "vuln_range": [
+                    1301,
+                    1304,
+                    1310,
+                    1314
+                ]
+            }
+        ],
+        "CommitVersion": "bb0d867169d7e9743d229804106a8fbcab7f3b3f",
+        "ParentCommitVersion": "ed9e98c214dde25cc9ff54bac7191c3824be3ffa",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2014-8503": {
+        "id": 61,
+        "cwe": "CWE-119",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/ihex.c",
+                "name": "ihex_scan",
+                "line_range": [
+                    238,
+                    479
+                ],
+                "vuln_range": [
+                    324,
+                    324
+                ]
+            }
+        ],
+        "CommitVersion": "0102ea8cec5fc509bba6c91df61b7ce23a799d32",
+        "ParentCommitVersion": "7e760b06b212f01b3819d5b37e8f5b613e0db34c",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2014-8502": {
+        "id": 62,
+        "cwe": "CWE-119",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/elf.c",
+                "name": "bfd_section_from_shdr",
+                "line_range": [
+                    1574,
+                    2107
+                ],
+                "vuln_range": [
+                    1582,
+                    1585,
+                    2104,
+                    2107
+                ]
+            }
+        ],
+        "CommitVersion": "5a4b0ccc20ba30caef53b01bee2c0aaa5b855339",
+        "ParentCommitVersion": "1df4399f27f8ee817d8eb4c73bba42bb65844303",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2014-8501": {
+        "id": 63,
+        "cwe": "CWE-119",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/peXXigen.c",
+                "name": "_bfd_XXi_swap_aouthdr_in",
+                "line_range": [
+                    442,
+                    556
+                ],
+                "vuln_range": [
+                    504,
+                    506
+                ]
+            }
+        ],
+        "CommitVersion": "7e1e19887abd24aeb15066b141cdff5541e0ec8e",
+        "ParentCommitVersion": "493a33860c71cac998f1a56d6d87d6faa801fbaa",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+    "CVE-2014-8484": {
+        "id": 64,
+        "cwe": "CWE-119",
+        "product": "GNU Binutils",
+        "functions": [
+            {
+                "file": "bfd/srec.c",
+                "name": "srec_scan",
+                "line_range": [
+                    294,
+                    629
+                ],
+                "vuln_range": [
+                    489,
+                    490
+                ]
+            }
+        ],
+        "CommitVersion": "bd25671c6f202c4a5108883caa2adb24ff6f361f",
+        "ParentCommitVersion": "5a1431e66e1cebb5b4bbc6355804d8a00a4c8d74",
+        "Repo_url": "https://sourceware.org/git/binutils-gdb.git"
+    },
+
+
+    "CVE-2019-17539": {
+        "id": 65,
+        "cwe": "CWE-476",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/utils.c",
+                "name": "avcodec_open2",
+                "line_range": [
+                    542,
+                    1059
+                ],
+                "vuln_range": [
+                    1027,
+                    1027
+                ]
+            }
+        ],
+        "CommitVersion": "8df6884832ec413cf032dfaa45c23b1c7876670c",
+        "ParentCommitVersion": "508ce5839e0bf78ce8813eb1b38cce0d416a408e",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2019-11338": {
+        "id": 66,
+        "cwe": "CWE-476",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/hevcdec.c",
+                "name": "hls_slice_header",
+                "line_range": [
+                    483,
+                    903
+                ],
+                "vuln_range": [
+                    490,
+                    491
+                ]
+            },
+            {
+                "file": "libavcodec/hevcdec.c",
+                "name": "decode_nal_unit",
+                "line_range": [
+                    2837,
+                    3021
+                ],
+                "vuln_range": [
+                    2930,
+                    2933
+                ]
+            }
+        ],
+        "CommitVersion": "54655623a82632e7624714d7b2a3e039dc5faa7e",
+        "ParentCommitVersion": "681957b88d18f51d0f52add4f7bb1c9fc5d8323b",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2018-1999011": {
+        "id": 67,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavformat/asfdec_o.c",
+                "name": "parse_video_info",
+                "line_range": [
+                    694,
+                    724
+                ],
+                "vuln_range": [
+                    709,
+                    709
+                ]
+            }
+        ],
+        "CommitVersion": "2b46ebdbff1d8dec7a3d8ea280a612b91a582869",
+        "ParentCommitVersion": "bab0716c7f4793ec42e05a5aa7e80d82a0dd4e75",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2018-13303": {
+        "id": 68,
+        "cwe": "CWE-476",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/ac3_parser.c",
+                "name": "avpriv_ac3_parse_header",
+                "line_range": [
+                    152,
+                    171
+                ],
+                "vuln_range": [
+                    165,
+                    165
+                ]
+            }
+        ],
+        "CommitVersion": "00e8181bd97c834fe60751b0c511d4bb97875f78",
+        "ParentCommitVersion": "ed22dc22216f74c75ee7901f82649e1ff725ba50",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2018-13301": {
+        "id": 69,
+        "cwe": "CWE-476",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/mpeg4videodec.c",
+                "name": "mpeg4_decode_profile_level",
+                "line_range": [
+                    1983,
+                    1992
+                ],
+                "vuln_range": [
+                    1983,
+                    1992
+                ]
+            },
+            {
+                "file": "libavcodec/mpeg4videodec.c",
+                "name": "ff_mpeg4_decode_picture_header",
+                "line_range": [
+                    3102,
+                    3248
+                ],
+                "vuln_range": [
+                    3214,
+                    3216
+                ]
+            }
+        ],
+        "CommitVersion": "2aa9047486dbff12d9e040f917e5f799ed2fd78b",
+        "ParentCommitVersion": "95556e27e2c1d56d9e18f5db34d6f756f3011148",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2017-14767": {
+        "id": 70,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavformat/rtpdec_h264.c",
+                "name": "sdp_parse_fmtp_config_h264",
+                "line_range": [
+                    144,
+                    182
+                ],
+                "vuln_range": [
+                    169,
+                    169
+                ]
+            }
+        ],
+        "CommitVersion": "c42a1388a6d1bfd8001bf6a4241d8ca27e49326d",
+        "ParentCommitVersion": "eca2a49716ae1f42804dd3545da2f740edf03250",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2017-14225": {
+        "id": 71,
+        "cwe": "CWE-476",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "ffprobe.c",
+                "name": "show_frame",
+                "line_range": [
+                    2057,
+                    2208
+                ],
+                "vuln_range": [
+                    2119,
+                    2122
+                ]
+            },
+            {
+                "file": "ffprobe.c",
+                "name": "show_stream",
+                "line_range": [
+                    2422,
+                    2662
+                ],
+                "vuln_range": [
+                    2519,
+                    2522
+                ]
+            }
+        ],
+        "CommitVersion": "837cb4325b712ff1aab531bf41668933f61d75d2",
+        "ParentCommitVersion": "2b44dcbc44e99daf9515753e9fd4c2e1ea53a2fa",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2017-9996": {
+        "id": 72,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/cdxl.c",
+                "name": "cdxl_decode_frame",
+                "line_range": [
+                    239,
+                    316
+                ],
+                "vuln_range": [
+                    280,
+                    280
+                ]
+            }
+        ],
+        "CommitVersion": "e1b60aad77c27ed5d4dfc11e5e6a05a38c70489d",
+        "ParentCommitVersion": "277e397eb5964999bd76909f52d4bd3350289c22",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2017-9995": {
+        "id": 73,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/scpr.c",
+                "name": "decompress_i",
+                "line_range": [
+                    293,
+                    493
+                ],
+                "vuln_range": [
+                    336,
+                    341
+                ]
+            }
+        ],
+        "CommitVersion": "7ac5067146613997bb38442cb022d7f41321a706",
+        "ParentCommitVersion": "8a69f2602fea04b7ebae2db16f2581e8ff5ee0cd",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2017-9994": {
+        "id": 74,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/vp8.c",
+                "name": "vp78_decode_frame",
+                "line_range": [
+                    2544,
+                    2701
+                ],
+                "vuln_range": [
+                    2553,
+                    2561
+                ]
+            },
+            {
+                "file": "libavcodec/webp.c",
+                "name": "vp8_lossy_decode_frame",
+                "line_range": [
+                    1326,
+                    1364
+                ],
+                "vuln_range": [
+                    1337,
+                    1338
+                ]
+            }
+        ],
+        "CommitVersion": "6b5d3fb26fb4be48e4966e4b1d97c2165538d4ef",
+        "ParentCommitVersion": "942036e97c8b149ce2f3ec6e7cbc990df8713d0c",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2017-9991": {
+        "id": 75,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/xwddec.c",
+                "name": "xwd_decode_frame",
+                "line_range": [
+                    31,
+                    244
+                ],
+                "vuln_range": [
+                    160,
+                    160,
+                    162,
+                    162
+                ]
+            }
+        ],
+        "CommitVersion": "441026fcb13ac23aa10edc312bdacb6445a0ad06",
+        "ParentCommitVersion": "a5e0dbf530d447f36099aed575b34e9258c5d75a",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2017-9608": {
+        "id": 76,
+        "cwe": "CWE-476",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/dnxhd_parser.c",
+                "name": "dnxhd_find_frame_end",
+                "line_range": [
+                    37,
+                    110
+                ],
+                "vuln_range": [
+                    75,
+                    79
+                ]
+            }
+        ],
+        "CommitVersion": "611b35627488a8d0763e75c25ee0875c5b7987dd",
+        "ParentCommitVersion": "b52b398c30a729dda38c0dd5a0cdeef160c4ca54",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2016-10192": {
+        "id": 77,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "ffserver.c",
+                "name": "http_receive_data",
+                "line_range": [
+                    2719,
+                    2878
+                ],
+                "vuln_range": [
+                    2741,
+                    2741
+                ]
+            }
+        ],
+        "CommitVersion": "a5d25faa3f4b18dac737fdb35d0dd68eb0dc2156",
+        "ParentCommitVersion": "a5f27a9c3aa973c543bd8bbf2a78363700bbc03e",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2016-10191": {
+        "id": 78,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavformat/rtmppkt.c",
+                "name": "rtmp_packet_read_one_chunk",
+                "line_range": [
+                    171,
+                    288
+                ],
+                "vuln_range": [
+                    238,
+                    238
+                ]
+            }
+        ],
+        "CommitVersion": "7d57ca4d9a75562fa32e40766211de150f8b3ee7",
+        "ParentCommitVersion": "d903b4e3ad4a81b3dd79f12c2f3b9cb16e511173",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2016-6920": {
+        "id": 79,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/exr.c",
+                "name": "decode_block",
+                "line_range": [
+                    1019,
+                    1232
+                ],
+                "vuln_range": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "CommitVersion": "79f52a0dbd484aad111e4bf4a4f7047c7ceb6137",
+        "ParentCommitVersion": "ae893819620b49f1a04902dca35852139aaa8d36",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2016-3062": {
+        "id": 80,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavformat/mov.c",
+                "name": "mov_read_dref",
+                "line_range": [
+                    388,
+                    493
+                ],
+                "vuln_range": [
+                    407,
+                    407
+                ]
+            }
+        ],
+        "CommitVersion": "689e59b7ffed34eba6159dcc78e87133862e3746",
+        "ParentCommitVersion": "35e0496a7bb7243ce3574ab971bd489c7f7a0876",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2016-2328": {
+        "id": 81,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libswscale/swscale_unscaled.c",
+                "name": "bayer_to_yv12_wrapper",
+                "line_range": [
+                    1081,
+                    1129
+                ],
+                "vuln_range": [
+                    1127,
+                    1127
+                ]
+            }
+        ],
+        "CommitVersion": "757248ea3cd917a7755cb15f817a9b1f15578718",
+        "ParentCommitVersion": "ad3b6fa7d83db7de951ed891649af93a47e74be5",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2016-2327": {
+        "id": 82,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/pngenc.c",
+                "name": "apng_encode_frame",
+                "line_range": [
+                    709,
+                    828
+                ],
+                "vuln_range": [
+                    773,
+                    773
+                ]
+            },
+            {
+                "file": "libavcodec/pngenc.c",
+                "name": "encode_apng",
+                "line_range": [
+                    830,
+                    969
+                ],
+                "vuln_range": [
+                    951,
+                    951
+                ]
+            }
+        ],
+        "CommitVersion": "8f4c3e4b92212d98f5b9ca2dee13e076effe9589",
+        "ParentCommitVersion": "7ec9c5ce8a753175244da971fed9f1e25aef7971",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2016-2213": {
+        "id": 83,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/jpeg2000dec.c",
+                "name": "jpeg2000_decode_tile",
+                "line_range": [
+                    1758,
+                    1788
+                ],
+                "vuln_range": [
+                    1769,
+                    1774
+                ]
+            }
+        ],
+        "CommitVersion": "0aada30510d809bccfd539a90ea37b61188f2cb4",
+        "ParentCommitVersion": "75a7565bcb69701823a922c6b2becb35fbd7983f",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2015-8663": {
+        "id": 84,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/utils.c",
+                "name": "ff_get_buffer",
+                "line_range": [
+                    888,
+                    894
+                ],
+                "vuln_range": [
+                    891,
+                    892
+                ]
+            }
+        ],
+        "CommitVersion": "abee0a1c60612e8638640a8a3738fffb65e16dbf",
+        "ParentCommitVersion": "4f03bebc79f76df3a3e5bb9e1bc32baabfb7797c",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2015-8662": {
+        "id": 85,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/jpeg2000dwt.c",
+                "name": "ff_dwt_encode",
+                "line_range": [
+                    596,
+                    612
+                ],
+                "vuln_range": [
+                    596,
+                    599
+                ]
+            }
+        ],
+        "CommitVersion": "75422280fbcdfbe9dc56bde5525b4d8b280f1bc5",
+        "ParentCommitVersion": "8453095f3eb8a635719a85b04773a72b9763a672",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2015-8661": {
+        "id": 86,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/h264_slice.c",
+                "name": "h264_slice_header_init",
+                "line_range": [
+                    1023,
+                    1130
+                ],
+                "vuln_range": [
+                    1099,
+                    1101
+                ]
+            }
+        ],
+        "CommitVersion": "4ea4d2f438c9a7eba37980c9a87be4b34943e4d5",
+        "ParentCommitVersion": "9c35b8e219549c81e9a73a9b5a38be36b9c98181",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2015-8365": {
+        "id": 87,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/smacker.c",
+                "name": "smka_decode_frame",
+                "line_range": [
+                    623,
+                    807
+                ],
+                "vuln_range": [
+                    0,
+                    0
+                ]
+            }
+        ],
+        "CommitVersion": "4a9af07a49295e014b059c1ab624c40345af5892",
+        "ParentCommitVersion": "6a69a175e7b5c5393528ed0f5753e41573fa0df2",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+    "CVE-2015-1872": {
+        "id": 88,
+        "cwe": "CWE-119",
+        "product": "Ffmpeg Ffmpeg",
+        "functions": [
+            {
+                "file": "libavcodec/mjpegdec.c",
+                "name": "ff_mjpeg_decode_sof",
+                "line_range": [
+                    245,
+                    617
+                ],
+                "vuln_range": [
+                    561,
+                    561,
+                    563,
+                    563
+                ]
+            }
+        ],
+        "CommitVersion": "fabbfaa095660982cc0bc63242c459561fa37037",
+        "ParentCommitVersion": "afa92907f3c6a0c3bdad766ec8d938ee17ee1c9e",
+        "Repo_url": "https://github.com/FFmpeg/FFmpeg.git"
+    },
+
+
+    
+    "CVE-2022-3358": {
+        "id": 89,
+        "cwe": "CWE-476",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "crypto/evp/digest.c",
+                "name": "evp_md_init_internal",
+                "line_range": [
+                    144,
+                    354
+                ],
+                "vuln_range": [
+                    228,
+                    228
+                ]
+            },
+            {
+                "file": "crypto/evp/evp_enc.c",
+                "name": "evp_cipher_init_internal",
+                "line_range": [
+                    82,
+                    387
+                ],
+                "vuln_range": [
+                    139,
+                    139
+                ]
+            }
+        ],
+        "CommitVersion": "5485c56679d7c49b96e8fc8ca708b0b7e7c03c4b",
+        "ParentCommitVersion": "9f0867da4cbf77ed642717b5e703e09ab2c087a0",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2021-23841": {
+        "id": 90,
+        "cwe": "CWE-476",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "crypto/x509/x509_cmp.c",
+                "name": "X509_issuer_and_serial_hash",
+                "line_range": [
+                    32,
+                    59
+                ],
+                "vuln_range": [
+                    42,
+                    45
+                ]
+            }
+        ],
+        "CommitVersion": "122a19ab48091c657f7cb1fb3af9fc07bd557bbf",
+        "ParentCommitVersion": "c8c6e7438c03b2fc24e7ead460feeaef04911fb4",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2021-3449": {
+        "id": 91,
+        "cwe": "CWE-476",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "ssl/statem/extensions.c",
+                "name": "init_sig_algs",
+                "line_range": [
+                    1146,
+                    1153
+                ],
+                "vuln_range": [
+                    1150,
+                    1151
+                ]
+            }
+        ],
+        "CommitVersion": "fb9fa6b51defd48157eeb207f52181f735d96148",
+        "ParentCommitVersion": "3ff38629a2df6635f36bfb79513cc6440db8cd70",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2020-1971": {
+        "id": 92,
+        "cwe": "CWE-476",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "crypto/x509v3/v3_genn.c",
+                "name": "GENERAL_NAME_cmp",
+                "line_range": [
+                    62,
+                    97
+                ],
+                "vuln_range": [
+                    68,
+                    72
+                ]
+            },
+            {
+                "file": "crypto/x509v3/v3_genn.c",
+                "name": "GENERAL_NAME_set0_value",
+                "line_range": [
+                    114,
+                    145
+                ],
+                "vuln_range": [
+                    117,
+                    120
+                ]
+            }
+        ],
+        "CommitVersion": "f960d81215ebf3f65e03d4d5d857fb9b666d6920",
+        "ParentCommitVersion": "aa0ad2011d3e7ad8a611da274ef7d9c7706e289b",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2020-1967": {
+        "id": 93,
+        "cwe": "CWE-476",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "ssl/t1_lib.c",
+                "name": "tls1_check_sig_alg",
+                "line_range": [
+                    2106,
+                    2137
+                ],
+                "vuln_range": [
+                    2133,
+                    2133
+                ]
+            }
+        ],
+        "CommitVersion": "eb563247aef3e83dda7679c43f9649270462e5b1",
+        "ParentCommitVersion": "64eef86733fd40a5b7737dc586754c3fa3414b0c",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2017-3735": {
+        "id": 94,
+        "cwe": "CWE-119",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "crypto/x509v3/v3_addr.c",
+                "name": "X509v3_addr_get_afi",
+                "line_range": [
+                    85,
+                    91
+                ],
+                "vuln_range": [
+                    85,
+                    90
+                ]
+            }
+        ],
+        "CommitVersion": "068b963bb7afc57f5bdd723de0dd15e7795d5822",
+        "ParentCommitVersion": "7c188d4af022700961882971b90b70ac71702470",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2017-3730": {
+        "id": 95,
+        "cwe": "CWE-476",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "ssl/statem/statem_clnt.c",
+                "name": "tls_construct_cke_dhe",
+                "line_range": [
+                    2248,
+                    2283
+                ],
+                "vuln_range": [
+                    2259,
+                    2261
+                ]
+            },
+            {
+                "file": "ssl/statem/statem_clnt.c",
+                "name": "tls_construct_cke_ecdhe",
+                "line_range": [
+                    2285,
+                    2337
+                ],
+                "vuln_range": [
+                    2298,
+                    2300
+                ]
+            }
+        ],
+        "CommitVersion": "efbe126e3ebb9123ac9d058aa2bb044261342aaa",
+        "ParentCommitVersion": "793d9b79033c2fffc8e781dab2fd678661b348cd",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2016-7052": {
+        "id": 96,
+        "cwe": "CWE-476",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "crypto/x509/x509_vfy.c",
+                "name": "get_crl_sk",
+                "line_range": [
+                    1113,
+                    1167
+                ],
+                "vuln_range": [
+                    1125,
+                    1130
+                ]
+            }
+        ],
+        "CommitVersion": "6e629b5be45face20b4ca71c4fcbfed78b864a2e",
+        "ParentCommitVersion": "f15a7e39a1f7d41716ca5f07faef74f55147d2cf",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2016-2176": {
+        "id": 97,
+        "cwe": "CWE-119",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "crypto/x509/x509_obj.c",
+                "name": "X509_NAME_oneline",
+                "line_range": [
+                    73,
+                    229
+                ],
+                "vuln_range": [
+                    133,
+                    136
+                ]
+            }
+        ],
+        "CommitVersion": "2919516136a4227d9e6d8f2fe66ef976aaf8c561",
+        "ParentCommitVersion": "56ea22458f3f5f1d0148b0a97957de4d56f3d328",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2016-2108": {
+        "id": 98,
+        "cwe": "CWE-119",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "crypto/asn1/a_int.c",
+                "name": "i2c_ASN1_INTEGER",
+                "line_range": [
+                    114,
+                    180
+                ],
+                "vuln_range": [
+                    124,
+                    128,
+                    164,
+                    166
+                ]
+            },
+            {
+                "file": "crypto/asn1/a_int.c",
+                "name": "BN_to_ASN1_INTEGER",
+                "line_range": [
+                    409,
+                    447
+                ],
+                "vuln_range": [
+                    422,
+                    422
+                ]
+            }
+        ],
+        "CommitVersion": "3661bb4e7934668bd99ca777ea8b30eedfafa871",
+        "ParentCommitVersion": "e697a4c3d7d2267e9d82d88dbfa5084475794cb3",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2015-3194": {
+        "id": 99,
+        "cwe": "CWE-476",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "crypto/rsa/rsa_ameth.c",
+                "name": "rsa_pss_decode",
+                "line_range": [
+                    261,
+                    290
+                ],
+                "vuln_range": [
+                    282,
+                    282
+                ]
+            }
+        ],
+        "CommitVersion": "d8541d7e9e63bf5f343af24644046c8d96498c17",
+        "ParentCommitVersion": "b29ffa392e839d05171206523e84909146f7a77c",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2015-0292": {
+        "id": 100,
+        "cwe": "CWE-119",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "crypto/evp/encode.c",
+                "name": "EVP_DecodeUpdate",
+                "line_range": [
+                    235,
+                    356
+                ],
+                "vuln_range": [
+                    325,
+                    328
+                ]
+            }
+        ],
+        "CommitVersion": "d0666f289ac013094bbbf547bfbcd616199b7d2d",
+        "ParentCommitVersion": "d8afda60a991791f27cfac79186b1f8a4f4e30a0",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2014-8176": {
+        "id": 101,
+        "cwe": "CWE-119",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "ssl/d1_lib.c",
+                "name": "dtls1_clear_queues",
+                "line_range": [
+                    159,
+                    210
+                ],
+                "vuln_range": [
+                    205,
+                    207
+                ]
+            }
+        ],
+        "CommitVersion": "470990fee0182566d439ef7e82d1abf18b7085d7",
+        "ParentCommitVersion": "030a3f95275cc96c9ef40ec0897ce7cbe3a82dac",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2014-3512": {
+        "id": 102,
+        "cwe": "CWE-119",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "crypto/srp/srp_lib.c",
+                "name": "srp_Calc_k",
+                "line_range": [
+                    82,
+                    110
+                ],
+                "vuln_range": [
+                    90,
+                    94
+                ]
+            },
+            {
+                "file": "crypto/srp/srp_lib.c",
+                "name": "SRP_Calc_u",
+                "line_range": [
+                    112,
+                    145
+                ],
+                "vuln_range": [
+                    123,
+                    126
+                ]
+            }
+        ],
+        "CommitVersion": "4a23b12a031860253b58d503f296377ca076427b",
+        "ParentCommitVersion": "80bd7b41b30af6ee96f519e629463583318de3b0",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    },
+    "CVE-2014-3470": {
+        "id": 103,
+        "cwe": "CWE-476",
+        "product": "Openssl Openssl",
+        "functions": [
+            {
+                "file": "ssl/s3_clnt.c",
+                "name": "ssl3_send_client_key_exchange",
+                "line_range": [
+                    2218,
+                    2926
+                ],
+                "vuln_range": [
+                    2514,
+                    2516
+                ]
+            }
+        ],
+        "CommitVersion": "8011cd56e39a433b1837465259a9bd24a38727fb",
+        "ParentCommitVersion": "d3152655d5319ce883c8e3ac4b99f8de4c59d846",
+        "Repo_url": "https://github.com/openssl/openssl.git"
+    }
+}
